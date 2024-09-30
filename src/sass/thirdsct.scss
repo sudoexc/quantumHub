@@ -1,0 +1,60 @@
+.third-sct {
+    margin-top: 65px;
+}
+
+.third-sct .third-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #303030;
+    margin-top: 65px;
+    margin-bottom: 31px;
+}
+
+.third-sct-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.third-sct-wrapper .third-card {
+    width: 343px;
+    height: 344px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 32px 32px 0 32px;
+}
+
+.third-card-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.third-card img {
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+
+.third-card h5 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #303030;
+    margin-top: 16px;
+}
+
+.third-card p {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #404040;
+}
