@@ -33,7 +33,7 @@
 .six-sct-img div p {
     width: 296px;
     height: 69px;
-    font-style: normal;
+    font-style: italic;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
@@ -51,8 +51,17 @@
     color: #303030;
 }
 
+.six-sct-rigth p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+
+}
+
 .feed-form {
-    margin-top: 36px;
+    margin-top: 12px;
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -92,4 +101,65 @@ input:nth-child(3) {
     height: 55px;
     color: #ffffff;
     font-size: 16px;
+}
+
+.socials {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.social {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #CFDAE7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    width: 22px;
+    
+}
+
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    justify-content: center;
+    align-items: center;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+.modal-content {
+    opacity: 1; /* Полная непрозрачность контента */
+}
+
+.modal.show {
+    display: flex; /* Показываем модальное окно */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    text-align: center;
+    border-radius: 5px;
 }

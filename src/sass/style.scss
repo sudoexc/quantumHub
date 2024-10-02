@@ -7,6 +7,10 @@
     font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #F4F7FA;
 }
@@ -15,7 +19,6 @@ body {
     max-width: 1300px;
     margin: 0 auto;
 }
-
 @import url(header.scss);
 @import url(firstsct.scss);
 @import url(secondsct.scss);
@@ -23,3 +26,5 @@ body {
 @import url(foursct.scss);
 @import url(fivessct.scss);
 @import url(sixsct.scss);
+@import url(footer.scss);
+@import url(media.scss);

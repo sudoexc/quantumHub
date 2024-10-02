@@ -1,0 +1,38 @@
+footer {
+    height: 52px;
+    background-color: #E8EDF3;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+footer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7A7A7A;
+}
+
+footer a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7A7A7A;
+}
+
+.politics-wrapper {
+    display: flex;
+    gap: 22px;
+}
+
+.fiolet-end {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+

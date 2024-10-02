@@ -17,7 +17,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .third-sct-wrapper .third-card {
@@ -43,7 +45,7 @@
 
 .third-card h5 {
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 16px;
     line-height: 150%;
     color: #303030;
